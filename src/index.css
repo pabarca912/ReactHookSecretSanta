@@ -1,13 +1,58 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #1b752a;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  background: #a11c1c;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  color: #eee;
+}
+.navbar {
+  padding: 10px 20px;
+  text-align: center;
+  background: #fc2424;
+}
+.navbar h1 {
+  margin: 10px 0;
+}
+.people-list {
+  margin: 20px;
+}
+
+.people-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+.people-list li {
+  background: #fc2424;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.people-list li:hover {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+.people-list .fullname {
+  font-weight: bold;
+  color: #eee;
+  font-size: 1.2em;
+}
+people-list .email {
+  font-size: 0.9em;
+  color: #ddd;
+}
+.empty {
+  margin: 20px;
+  text-align: center;
 }
